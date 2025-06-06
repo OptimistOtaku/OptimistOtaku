@@ -28,25 +28,20 @@
 
 ---
 
-### 🔥 About Me
+### 🌟 About Me
 
 ```yaml
 name: OptimistOtaku
-skills:
-  - Python (primary language)
-  - AI & ML (core strength)
-  - Full-stack Web Dev (React, Next.js, Node.js)
-  - API Engineering (REST, FastAPI)
+strengths:
+  - Python development
+  - Artificial Intelligence & Machine Learning
+  - Full-stack Web Development
+  - Scalable API design
   - Databases (PostgreSQL, MongoDB)
-values:
-  - Clean Code
-  - Real-world Impact
-  - Continuous Learning
+mindset:
+  - Solve real-world problems
+  - Ship impactful projects
+  - Keep learning, keep building
 
 📊 GitHub Stats
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=OptimistOtaku&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com?user=OptimistOtaku&theme=tokyonight" alt="GitHub Streak" /> </p>
-
-📫 Let’s Connect
-📧 Email: optimistotaku@gmail.com
-
-🌐 GitHub: github.com/OptimistOtaku
