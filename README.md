@@ -19,9 +19,9 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [**AdityaMarketing**](https://github.com/OptimistOtaku/adityamarketing) | A sleek digital marketing agency website | Next.js, TypeScript |
-| [**Alldoc**](https://github.com/OptimistOtaku/Alldoc) | Document organization made simple | TypeScript |
-| [**FoodSpinAI**](https://github.com/OptimistOtaku/FoodSpinAI) | AI-powered food recommender | TypeScript, AI |
+| [**AdityaMarketing**](https://github.com/OptimistOtaku/adityamarketing) | A sleek loan finance website | Next.js, TypeScript |
+| [**Alldoc**](https://github.com/OptimistOtaku/Alldoc) | Cloud storage space aggregator  | TypeScript |
+| [**FoodSpinAI**](https://github.com/OptimistOtaku/FoodSpinAI) | AI-powered food recommender and diet planner | TypeScript, AI |
 | [**HangOut-Hero**](https://github.com/OptimistOtaku/HangOut-Hero) | Personalized AI-based hangout planner | TypeScript, OpenAI |
 | [**SmartCon**](https://github.com/OptimistOtaku/SmartCon) | Blockchain-based rent agreement system | TypeScript, QR, Blockchain |
 | [**FraudEye**](https://github.com/OptimistOtaku/fraudeye) | Hybrid AI + rule-based fraud detection API | Python, FastAPI, ML |
@@ -30,18 +30,26 @@
 
 ### 🌟 About Me
 
-```yaml
-name: OptimistOtaku
-strengths:
-  - Python development
-  - Artificial Intelligence & Machine Learning
-  - Full-stack Web Development
-  - Scalable API design
-  - Databases (PostgreSQL, MongoDB)
-mindset:
-  - Solve real-world problems
-  - Ship impactful projects
-  - Keep learning, keep building
+**Strengths:**
+- 🐍 Python development  
+- 🤖 Artificial Intelligence & Machine Learning  
+- 🌐 Full-stack Web Development  
+- ⚙️ Scalable API design  
+- 🛢️ Databases (PostgreSQL, MongoDB)
 
-📊 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=OptimistOtaku&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com?user=OptimistOtaku&theme=tokyonight" alt="GitHub Streak" /> </p>
+**Mindset:**
+- 🎯 Solve real-world problems  
+- 🚀 Ship impactful projects  
+- 📚 Keep learning, keep building
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=OptimistOtaku&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=OptimistOtaku&theme=tokyonight" alt="GitHub Streak" />
+</p>
