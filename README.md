@@ -19,7 +19,6 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [**AdityaMarketing**](https://github.com/OptimistOtaku/adityamarketing) | A sleek loan finance website | Next.js, TypeScript |
 | [**Alldoc**](https://github.com/OptimistOtaku/Alldoc) | Cloud storage space aggregator  | TypeScript |
 | [**FoodSpinAI**](https://github.com/OptimistOtaku/FoodSpinAI) | AI-powered food recommender and diet planner | TypeScript, AI |
 | [**HangOut-Hero**](https://github.com/OptimistOtaku/HangOut-Hero) | Personalized AI-based hangout planner | TypeScript, OpenAI |
