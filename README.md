@@ -21,10 +21,10 @@
 |--------|-------------|-------|
 | [**BudAi**](https://github.com/OptimistOtaku/BudAi) | Natural-language AI workflow orchestrator for search, calls, and calendar booking | JavaScript |
 | [**aegis-env**](https://github.com/OptimistOtaku/aegis-env) | OpenEnv-compliant RL environment for AI safety incident response training | Python |
-| [**Devsage**](https://github.com/OptimistOtaku/Devsage) | AI agent framework with rules, duties, memory, and workflow definitions | Markdown, YAML |
+| [**Devsage**](https://github.com/OptimistOtaku/Devsage) | AI agent framework with rules, duties, memory, and workflow definitions | Markdown, YAML (spec-driven) |
 | [**neural-ad-scorer**](https://github.com/OptimistOtaku/neural-ad-scorer) | Neural ad scoring platform with separate frontend and backend services | Python |
 | [**NexusArena**](https://github.com/OptimistOtaku/NexusArena) | Full scale AI based solution for seamless experience in sporting events | TypeScript |
-| [**RetinAI**](https://github.com/YayaBud/RetinAI) | Hybrid AI system for automated retinal disease classification | TypeScript |
+| [**YayaBud/RetinAI**](https://github.com/YayaBud/RetinAI) | Hybrid AI system for automated retinal disease classification | TypeScript |
 
 ---
 
