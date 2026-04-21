@@ -19,11 +19,12 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [**Alldoc**](https://github.com/OptimistOtaku/Alldoc) | Cloud storage space aggregator  | TypeScript |
-| [**FoodSpinAI**](https://github.com/OptimistOtaku/FoodSpinAI) | AI-powered food recommender and diet planner | TypeScript, AI |
-| [**HangOut-Hero**](https://github.com/OptimistOtaku/HangOut-Hero) | Personalized AI-based hangout planner | TypeScript, OpenAI |
-| [**SmartCon**](https://github.com/OptimistOtaku/SmartCon) | Blockchain-based rent agreement system | TypeScript, QR, Blockchain |
-| [**FraudEye**](https://github.com/OptimistOtaku/fraudeye) | Hybrid AI + rule-based fraud detection API | Python, FastAPI, ML |
+| [**BudAi**](https://github.com/OptimistOtaku/BudAi) | Pinned project | JavaScript |
+| [**aegis-env**](https://github.com/OptimistOtaku/aegis-env) | Pinned project | Python |
+| [**Devsage**](https://github.com/OptimistOtaku/Devsage) | Pinned project | - |
+| [**neural-ad-scorer**](https://github.com/OptimistOtaku/neural-ad-scorer) | Pinned project | Python |
+| [**NexusArena**](https://github.com/OptimistOtaku/NexusArena) | Full scale AI based solution for seamless experience in sporting events | TypeScript |
+| [**RetinAI**](https://github.com/YayaBud/RetinAI) | Hybrid AI system for automated retinal disease classification | TypeScript |
 
 ---
 
