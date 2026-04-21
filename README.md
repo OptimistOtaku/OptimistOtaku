@@ -19,11 +19,12 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [**Alldoc**](https://github.com/OptimistOtaku/Alldoc) | Cloud storage space aggregator  | TypeScript |
-| [**FoodSpinAI**](https://github.com/OptimistOtaku/FoodSpinAI) | AI-powered food recommender and diet planner | TypeScript, AI |
-| [**HangOut-Hero**](https://github.com/OptimistOtaku/HangOut-Hero) | Personalized AI-based hangout planner | TypeScript, OpenAI |
-| [**SmartCon**](https://github.com/OptimistOtaku/SmartCon) | Blockchain-based rent agreement system | TypeScript, QR, Blockchain |
-| [**FraudEye**](https://github.com/OptimistOtaku/fraudeye) | Hybrid AI + rule-based fraud detection API | Python, FastAPI, ML |
+| [**BudAi**](https://github.com/OptimistOtaku/BudAi) | Natural-language AI workflow orchestrator for search, calls, and calendar booking | JavaScript |
+| [**aegis-env**](https://github.com/OptimistOtaku/aegis-env) | OpenEnv-compliant RL environment for AI safety incident response training | Python |
+| [**Devsage**](https://github.com/OptimistOtaku/Devsage) | AI agent framework with rules, duties, memory, and workflow definitions | Markdown, YAML (spec-driven) |
+| [**neural-ad-scorer**](https://github.com/OptimistOtaku/neural-ad-scorer) | Neural ad scoring platform with separate frontend and backend services | Python |
+| [**NexusArena**](https://github.com/OptimistOtaku/NexusArena) | Full scale AI based solution for seamless experience in sporting events | TypeScript |
+| [**RetinAI**](https://github.com/YayaBud/RetinAI) | Hybrid AI system for automated retinal disease classification (YayaBud collaboration) | TypeScript |
 
 ---
 
