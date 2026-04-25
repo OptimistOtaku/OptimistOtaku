@@ -1,8 +1,9 @@
 <h1 align="center">Hi there, I'm OptimistOtaku 👋</h1>
 
 <p align="center">
-   💻 A passionate developer crafting solutions with <strong>TypeScript</strong>, <strong>Python</strong>, and <strong>AI</strong>.<br/>
-  🔍 I love solving real-world problems with code, and I always aim for real world, scalable, and impactful products.
+  Second-year Computer Science undergraduate.I work on problems at the intersection of machine learning, 
+ uncertainty quantification, and continual learning.
+
 </p>
 
 ---
@@ -37,12 +38,24 @@
 - ⚙️ Scalable API design  
 - 🛢️ Databases (PostgreSQL, MongoDB)
 
-**Mindset:**
-- 🎯 Solve real-world problems  
-- 🚀 Ship impactful projects  
-- 📚 Keep learning, keep building
+## Research Interests
+- Uncertainty-aware AI systems and epistemic calibration
+- Continual learning and the stability-plasticity dilemma
+- Agentic AI safety and containment
+- Human-AI interaction at the epistemic level
 
 ---
+
+## Active Work
+
+**The Ego Gate** — A mathematical framework for selective learning
+in AGI systems. Formalizes doubt (predictive entropy), curiosity
+(KL-divergence), arrogance (principled discarding), and dreaming
+(structured experience replay) as first-class information-theoretic
+operations governing stimulus routing and weight consolidation.
+
+---
+
 
 ### 📊 GitHub Stats
 
