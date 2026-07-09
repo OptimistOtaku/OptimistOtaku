@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm OptimistOtaku 👋</h1>
 
 <p align="center">
-  Second-year Computer Science undergraduate.I work on problems at the intersection of machine learning, 
+ I work on problems at the intersection of machine learning, 
  uncertainty quantification, and continual learning.
 
 </p>
