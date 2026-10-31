@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-	<a href="https://recall-loop-demo.onrender.com"><img src="https://img.shields.io/badge/TRY%20IT-RECALL%20LOOP-141B2D?style=for-the-badge&logo=render&logoColor=141B2D&labelColor=8BE5D5" alt="Try Recall Loop on Render" /></a>
+	<a href="#-selected-builds"><img src="https://img.shields.io/badge/BUILDING-AI%20SYSTEMS-141B2D?style=for-the-badge&logo=python&logoColor=141B2D&labelColor=8BE5D5" alt="Building AI systems" /></a>
 	<a href="https://github.com/OptimistOtaku/ego-gate/blob/main/ego_gate_paper.pdf"><img src="https://img.shields.io/badge/RESEARCH-EGO%20GATE-141B2D?style=for-the-badge&labelColor=C4B5FD" alt="Read the Ego Gate research preprint" /></a>
 	<a href="https://github.com/kestra-io/blueprints/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku"><img src="https://img.shields.io/badge/10%20PRs%20MERGED-KESTRA-1F232C?style=for-the-badge&logo=github&logoColor=200062&labelColor=CDC5FF" alt="Kestra milestone: 10 pull requests merged" /></a>
 </p>
@@ -23,57 +23,69 @@ That curiosity takes me from coding-agent memory and simulated robot crews to mo
 
 ## 🚀 Selected builds
 
-### Recall Loop / bunch
-**Memory for coding agents. A knowledge space you can actually inspect.**
-
-<a href="https://recall-loop-demo.onrender.com">
-	<img src="https://raw.githubusercontent.com/OptimistOtaku/recall-loop/main/screenshots/observatory-public.png" width="100%" alt="bunch, the Recall Loop application: an interactive knowledge graph with memory and evidence panels" />
-</a>
-
-A local-first application for carrying useful knowledge between coding sessions. Explore an editable **3D knowledge graph**, correct memories, connect prerequisites and contradictions, and retrieve the source evidence behind a lesson.
-
-**Python · FastAPI · SQLite · Qdrant Edge · Three.js · MCP**
-
-[**↗ Try the Render demo**](https://recall-loop-demo.onrender.com) · [Source](https://github.com/OptimistOtaku/recall-loop) · [Deployment checks](https://github.com/OptimistOtaku/recall-loop/blob/main/evaluation/deployment.json)
-
-<sub>The hosted demo uses isolated sample data. Free hosting may sleep; demo edits are temporary.</sub>
-
 <table>
 <tr>
 <td width="50%" valign="top">
 <h3>🛰️ GREG</h3>
-<a href="https://github.com/OptimistOtaku/greg"><img src="https://raw.githubusercontent.com/OptimistOtaku/greg/main/artifacts/orbital-station.png" width="100%" alt="GREG's orbital station simulation and mission-control interface" /></a>
 <p><strong>Shared knowledge. Distributed action.</strong></p>
-<p>A simulated robot crew with shared graph memory: task dependencies, observations, evidence, and recovery actions live in FalkorDB. Gemini agents act through validated MCP tools.</p>
-<p><code>Python</code> <code>FalkorDB</code> <code>MCP</code> <code>React / Three.js</code></p>
-<p><a href="https://github.com/OptimistOtaku/greg">Explore the project ↗</a> · <a href="https://github.com/OptimistOtaku/greg/releases/tag/v0.1.0-demo">Watch demo</a></p>
+<p>A simulated robot crew coordinating through shared graph memory, evidence, and task dependencies. Gemini agents use validated MCP tools to investigate faults and recover from blocked routes or robot outages.</p>
+<p><sub>Python · FalkorDB · MCP · React / Three.js</sub></p>
+<p><a href="https://github.com/OptimistOtaku/greg">Explore project ↗</a> · <a href="https://github.com/OptimistOtaku/greg/releases/tag/v0.1.0-demo">Watch demo</a></p>
 </td>
 <td width="50%" valign="top">
 <h3>🔭 SIETCH</h3>
-<a href="https://github.com/OptimistOtaku/Sietch"><img src="https://raw.githubusercontent.com/OptimistOtaku/Sietch/main/docs/img/hero.jpg" width="100%" alt="SIETCH's simulated Mars rover and scout drone with a memory interface" /></a>
 <p><strong>Memory when the signal disappears.</strong></p>
-<p>Edge memory for simulated rovers and drones. Local models recall observations by meaning and location, then choose what deserves the limited bandwidth back to mission control.</p>
-<p><code>Qdrant Edge</code> <code>Local VLMs</code> <code>Python</code> <code>Three.js</code></p>
-<p><a href="https://github.com/OptimistOtaku/Sietch">Explore the project ↗</a></p>
+<p>Edge memory for simulated rovers and drones. Local vision-language models recall observations by meaning and location, while a sync gate prioritizes what reaches mission control under a limited bandwidth budget.</p>
+<p><sub>Qdrant Edge · Ollama · SigLIP2 · Python</sub></p>
+<p><a href="https://github.com/OptimistOtaku/Sietch">Explore project ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
+<h3>🧩 Recall Loop / bunch</h3>
+<p><strong>Coding-agent memory you can inspect.</strong></p>
+<p>A local-first memory application with an editable 3D knowledge graph. Correct lessons, connect prerequisites and contradictions, and carry evidence-backed knowledge between sessions through hybrid retrieval and MCP.</p>
+<p><sub>FastAPI · SQLite · Qdrant Edge · Three.js</sub></p>
+<p><a href="https://github.com/OptimistOtaku/recall-loop">Explore project ↗</a> · <a href="https://recall-loop-demo.onrender.com">Render demo</a></p>
+</td>
+<td width="50%" valign="top">
 <h3>🏎️ PITWALL</h3>
 <p><strong>Race strategy, with uncertainty in view.</strong></p>
-<p>Formula 1 telemetry, lap-pace forecasts, tyre-value models, and undercut analysis in an offline interactive console. My role: <strong>AI &amp; Telemetry Engineer</strong>, covering physics identification, data pipelines, and benchmarking.</p>
-<p><code>Python</code> <code>FastF1</code> <code>Statistical learning</code></p>
-<p><a href="https://github.com/OptimistOtaku/trackshift-26">Explore the project ↗</a></p>
+<p>Formula 1 telemetry, lap-pace forecasts, tyre-value models, and undercut analysis in an offline console. My role: AI &amp; Telemetry Engineer, covering physics identification, data pipelines, and model benchmarking.</p>
+<p><sub>FastF1 · scikit-learn · pandas · statsmodels</sub></p>
+<p><a href="https://github.com/OptimistOtaku/trackshift-26">Explore project ↗</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>👁️ RetinAI</h3>
+<p><strong>Computer vision for retinal research.</strong></p>
+<p>Built with Ayush Chaudhary: a retinal-image research pipeline combining diffusion anomaly maps, disease-specific EfficientNet-B3 models, and meta-classifier fusion, with a React interface and FastAPI inference backend.</p>
+<p><sub>PyTorch · Diffusers · EfficientNet · React</sub></p>
+<p><a href="https://github.com/OptimistOtaku/RetinAI">Explore project ↗</a> · <a href="https://github.com/OptimistOtaku/RetinAI/blob/main/evaluation_results/all_results.json">Evaluation</a></p>
 </td>
 <td width="50%" valign="top">
 <h3>🛡️ aegis-env</h3>
 <p><strong>A training ground for AI incident response.</strong></p>
-<p>A reinforcement-learning environment where agents triage anomalies, contain cascading failures, patch components, and validate recovery—with adversarial logs and operational side effects.</p>
-<p><code>Python</code> <code>FastAPI</code> <code>Reinforcement learning</code></p>
-<p><a href="https://github.com/OptimistOtaku/aegis-env">Explore the project ↗</a></p>
+<p>A reinforcement-learning environment where agents triage anomalies, contain cascading failures, patch components, and validate recovery. Adversarial logs and operational side effects make each response a sequence of consequential decisions.</p>
+<p><sub>Python · FastAPI · Reinforcement learning</sub></p>
+<p><a href="https://github.com/OptimistOtaku/aegis-env">Explore project ↗</a></p>
 </td>
 </tr>
 </table>
+
+<details>
+<summary><strong>📸 Inside the projects</strong></summary>
+
+<p>
+	<a href="https://github.com/OptimistOtaku/greg"><img src="https://raw.githubusercontent.com/OptimistOtaku/greg/main/artifacts/orbital-station.png" width="32%" alt="GREG orbital station simulation" /></a>
+	<a href="https://github.com/OptimistOtaku/Sietch"><img src="https://raw.githubusercontent.com/OptimistOtaku/Sietch/main/docs/img/hero.jpg" width="32%" alt="SIETCH Mars rover simulation" /></a>
+	<a href="https://github.com/OptimistOtaku/recall-loop"><img src="https://raw.githubusercontent.com/OptimistOtaku/recall-loop/main/screenshots/observatory-public.png" width="32%" alt="Recall Loop / bunch knowledge graph" /></a>
+</p>
+
+</details>
+
+More experiments: [Gladiator Arena](https://github.com/OptimistOtaku/gladiator-arena) · [BudAi](https://github.com/OptimistOtaku/BudAi) · [NexusArena](https://github.com/OptimistOtaku/NexusArena) · [FieldSense](https://github.com/OptimistOtaku/FieldSense)
 
 ## 🧠 Research · the questions behind the code
 
@@ -90,21 +102,36 @@ Part of **The Stimulus**, my longer-term exploration of selective learning. The 
 
 ## ✨ Milestones with evidence
 
-| Work | Result |
+| Result | What I built and measured |
 | --- | --- |
-| 🧩 **Recall Loop / bunch** | Published a [Render demo](https://recall-loop-demo.onrender.com), with recorded checks for hybrid search, graph editing, and visitor isolation. |
-| 🛰️ **GREG** | [Three live-model demonstrations](https://github.com/OptimistOtaku/greg/blob/main/artifacts/gemini-evaluation.json) completed **7/7 objectives each**, including corridor blockage and robot failure in authored simulation scenarios. |
-| 🏎️ **PITWALL** | Reported **12% lower lap-pace RMSE** than persistence across 6,831 scored laps on a [reused evaluation set](https://github.com/OptimistOtaku/trackshift-26#-validated-benchmark-results). |
-| ⚡ **Cap** | A merged Rust optimization delivered **5.61× faster caption synchronization** in the [one-hour / 60-trimmed-clip local benchmark](https://github.com/CapSoftware/Cap/pull/2956). |
+| **98.6% routing accuracy · 0.998 AUC** | **RetinAI:** three-class disease routing over **2,796 evaluation images**. These are research evaluation results for the routing model, not clinical validation or DR severity-grading accuracy. [Raw metrics & confusion matrix ↗](https://github.com/OptimistOtaku/RetinAI/blob/main/evaluation_results/all_results.json) |
+| **39.4% less forgetting · 20 seeds** | **Ego Gate:** combined replay selection versus random selection at the same memory budget on a small class-incremental digits benchmark. The uncertainty-only variant achieved **46.8% less forgetting** in the same study. [Paired comparisons ↗](https://github.com/OptimistOtaku/ego-gate/blob/main/results/digits/paired_comparisons.csv) |
+| **60/60 recovery runs · 1.19 ms queries** | **GREG:** all six authored scenarios completed over ten deterministic repeats each. Shared-cause queries had **1.19 ms median latency** on a local graph with **5,251 nodes and 14,048 relationships**. [Benchmark evidence ↗](https://github.com/OptimistOtaku/greg/blob/main/artifacts/benchmark-results.json) |
+| **53 FPS · 500 nodes · 1,195 connections** | **Recall Loop / bunch:** measured Three.js rendering on a synthetic graph in a five-second, single-device browser run. [Rendering report ↗](https://github.com/OptimistOtaku/recall-loop/blob/main/evaluation/rendering.json) |
+| **12% lower error · 6,831 scored laps** | **PITWALL:** lap-pace RMSE **0.844 → 0.743 seconds** versus persistence; **92.5% empirical coverage** for nominal 90% intervals. Chronological training with a reused evaluation set. [Results & methodology ↗](https://github.com/OptimistOtaku/trackshift-26#-validated-benchmark-results) |
+| **0.7–2.5 ms offline vector search** | **SIETCH:** local Qdrant Edge search latency, excluding query embedding time, in the project's recorded laptop measurements. [Measurements & limits ↗](https://github.com/OptimistOtaku/Sietch/blob/main/findings_results.md) |
 
 ## 🛠️ My toolkit
 
-<p>
-	<img src="https://skillicons.dev/icons?i=python,rust,ts,js,react,nextjs,fastapi,threejs,postgres,sqlite,docker,git&perline=6" alt="Python, Rust, TypeScript, JavaScript, React, Next.js, FastAPI, Three.js, PostgreSQL, SQLite, Docker, and Git" />
+Technologies I've used across my projects, research, and contributions.
+
+<p align="center">
+	<img src="https://skillicons.dev/icons?i=python,cpp,rust,ts,js,solidity,html,css,react,nextjs,nodejs,express,fastapi,tailwind,threejs,pytorch,postgres,sqlite,firebase,docker,git,vite,vitest,cmake&perline=8" alt="Python, C++, Rust, TypeScript, JavaScript, Solidity, HTML, CSS, React, Next.js, Node.js, Express, FastAPI, Tailwind CSS, Three.js, PyTorch, PostgreSQL, SQLite, Firebase, Docker, Git, Vite, Vitest, and CMake" />
 </p>
 
-**AI & data:** agent tooling / MCP · Qdrant · FalkorDB · DuckDB · continual-learning experiments  
-**Engineering:** API design · data workflows · performance profiling · interactive visualization
+| Area | Technologies & techniques |
+| --- | --- |
+| **Languages** | Python · C++ · Rust · TypeScript · JavaScript · Solidity · SQL · HTML · CSS |
+| **Frontend & interaction** | React · Next.js · Vite · Tailwind CSS · shadcn/ui / Radix UI · GSAP · Framer Motion · React Hook Form · Zod |
+| **3D & visualization** | Three.js · React Three Fiber · Drei · Recharts · Chart.js · Matplotlib · SFML |
+| **Backend & APIs** | FastAPI · Node.js · Express · REST APIs · Socket.IO · SQLAlchemy · Prisma · JWT authentication |
+| **Machine learning & research** | PyTorch · torchvision · Hugging Face Diffusers · timm / EfficientNet · scikit-learn · NumPy · pandas · SciPy · statsmodels · FastF1 |
+| **Agents & retrieval** | MCP · Gemini / OpenAI APIs · Ollama · local vision-language models · SigLIP2 · FastEmbed · dense + BM25 retrieval · reciprocal rank fusion · graph memory |
+| **Databases & data engineering** | PostgreSQL · SQLite / FTS5 · Qdrant / Qdrant Edge · FalkorDB / Cypher · DuckDB · Firebase · Parquet / PyArrow · Kestra workflows |
+| **Infrastructure & tooling** | Docker · Docker Compose · Render · Git / GitHub · uv · npm · Cargo · CMake · PowerShell |
+| **Testing & reliability** | pytest · Vitest · React Testing Library · Node test runner · Rust regression tests · performance profiling · reproducible benchmarks · failure recovery |
+| **Web3** | Solidity smart contracts · Ethereum · ethers.js · ERC-20 / ERC-721 / ERC-1155 · NFT storage integration |
+
 
 ---
 
