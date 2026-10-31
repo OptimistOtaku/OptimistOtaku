@@ -1,82 +1,113 @@
-<h1 align="center">Aditya Singh</h1>
-<p align="center"><strong>AI systems · Agent memory · Open-source engineering</strong></p>
-<p align="center">Building systems that remember what matters, reason with evidence, and keep working when conditions change.</p>
-
 <p align="center">
-	<a href="https://github.com/kestra-io/blueprints/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku"><img src="https://img.shields.io/badge/10%20PRs%20MERGED-KESTRA-1F232C?style=for-the-badge&logo=github&logoColor=200062&labelColor=CDC5FF" alt="Kestra contribution milestone: 10 pull requests merged" /></a>
+	<img src="./assets/profile-banner.svg" width="100%" alt="Aditya Singh — Ideas into systems. AI systems, agent memory, and continual learning." />
 </p>
 
-I'm **Aditya**, also known as **OptimistOtaku**. I build AI applications and explore how intelligent systems select memories, handle uncertainty, and recover from failure. My work spans continual-learning experiments, graph-backed agents, edge memory, and Rust performance improvements in open source.
+<p align="center">
+	<a href="https://recall-loop-demo.onrender.com"><img src="https://img.shields.io/badge/TRY%20IT-RECALL%20LOOP-141B2D?style=for-the-badge&logo=render&logoColor=141B2D&labelColor=8BE5D5" alt="Try Recall Loop on Render" /></a>
+	<a href="https://github.com/OptimistOtaku/ego-gate/blob/main/ego_gate_paper.pdf"><img src="https://img.shields.io/badge/RESEARCH-EGO%20GATE-141B2D?style=for-the-badge&labelColor=C4B5FD" alt="Read the Ego Gate research preprint" /></a>
+	<a href="https://github.com/kestra-io/blueprints/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku"><img src="https://img.shields.io/badge/10%20PRs%20MERGED-KESTRA-1F232C?style=for-the-badge&logo=github&logoColor=200062&labelColor=CDC5FF" alt="Kestra milestone: 10 pull requests merged" /></a>
+</p>
 
-## Open source, with results
+<p align="center">
+	<a href="#-selected-builds">Projects</a> ·
+	<a href="#-research--the-questions-behind-the-code">Research</a> ·
+	<a href="#-milestones-with-evidence">Achievements</a> ·
+	<a href="https://github.com/OptimistOtaku?tab=repositories">All repositories</a>
+</p>
 
-### Kestra — reliable workflows and data engineering
+## 👋 I'm Aditya
 
-Contributed merged blueprints for database integrity, recoverable ingestion, portable search, and reproducible Python environments.
+I build AI systems and the interfaces that make them useful. I'm especially interested in **memory, uncertainty, and continual learning**: what should a system remember, when should it change its mind, and how can we inspect the evidence behind its decisions?
 
-- **[PostgreSQL integrity audits](https://github.com/kestra-io/blueprints/pull/4929):** detect foreign-key violations after imports that bypass triggers, with read-only checks and retained audit evidence.
-- **[SFTP → PostgreSQL ingestion](https://github.com/kestra-io/blueprints/pull/4635):** commit records and a processing ledger together, handle replays, and archive source files only after commit.
-- **[Verified offline Python bundles](https://github.com/kestra-io/blueprints/pull/4811):** build a hash-verified wheelhouse and prove installation in a fresh environment with networking disabled.
-- **[Portable SQLite search](https://github.com/kestra-io/blueprints/pull/4853):** build FTS5 catalogs and independently reopen them to verify integrity and search results.
+That curiosity takes me from coding-agent memory and simulated robot crews to motorsport telemetry and research experiments. I enjoy taking an idea all the way through **implementation, evaluation, and an experience people can explore**.
 
-[Explore my merged Kestra contributions →](https://github.com/kestra-io/blueprints/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku)
+## 🚀 Selected builds
 
-### Cap — Rust performance work
+### Recall Loop / bunch
+**Memory for coding agents. A knowledge space you can actually inspect.**
 
-Merged improvements to caption projection, keyboard-event indexing, style resolution, and 3D camera-track sampling.
+<a href="https://recall-loop-demo.onrender.com">
+	<img src="https://raw.githubusercontent.com/OptimistOtaku/recall-loop/main/screenshots/observatory-public.png" width="100%" alt="bunch, the Recall Loop application: an interactive knowledge graph with memory and evidence panels" />
+</a>
 
-| Contribution | Measured result |
+A local-first application for carrying useful knowledge between coding sessions. Explore an editable **3D knowledge graph**, correct memories, connect prerequisites and contradictions, and retrieve the source evidence behind a lesson.
+
+**Python · FastAPI · SQLite · Qdrant Edge · Three.js · MCP**
+
+[**↗ Try the Render demo**](https://recall-loop-demo.onrender.com) · [Source](https://github.com/OptimistOtaku/recall-loop) · [Deployment checks](https://github.com/OptimistOtaku/recall-loop/blob/main/evaluation/deployment.json)
+
+<sub>The hosted demo uses isolated sample data. Free hosting may sleep; demo edits are temporary.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🛰️ GREG</h3>
+<a href="https://github.com/OptimistOtaku/greg"><img src="https://raw.githubusercontent.com/OptimistOtaku/greg/main/artifacts/orbital-station.png" width="100%" alt="GREG's orbital station simulation and mission-control interface" /></a>
+<p><strong>Shared knowledge. Distributed action.</strong></p>
+<p>A simulated robot crew with shared graph memory: task dependencies, observations, evidence, and recovery actions live in FalkorDB. Gemini agents act through validated MCP tools.</p>
+<p><code>Python</code> <code>FalkorDB</code> <code>MCP</code> <code>React / Three.js</code></p>
+<p><a href="https://github.com/OptimistOtaku/greg">Explore the project ↗</a> · <a href="https://github.com/OptimistOtaku/greg/releases/tag/v0.1.0-demo">Watch demo</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>🔭 SIETCH</h3>
+<a href="https://github.com/OptimistOtaku/Sietch"><img src="https://raw.githubusercontent.com/OptimistOtaku/Sietch/main/docs/img/hero.jpg" width="100%" alt="SIETCH's simulated Mars rover and scout drone with a memory interface" /></a>
+<p><strong>Memory when the signal disappears.</strong></p>
+<p>Edge memory for simulated rovers and drones. Local models recall observations by meaning and location, then choose what deserves the limited bandwidth back to mission control.</p>
+<p><code>Qdrant Edge</code> <code>Local VLMs</code> <code>Python</code> <code>Three.js</code></p>
+<p><a href="https://github.com/OptimistOtaku/Sietch">Explore the project ↗</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🏎️ PITWALL</h3>
+<p><strong>Race strategy, with uncertainty in view.</strong></p>
+<p>Formula 1 telemetry, lap-pace forecasts, tyre-value models, and undercut analysis in an offline interactive console. My role: <strong>AI &amp; Telemetry Engineer</strong>, covering physics identification, data pipelines, and benchmarking.</p>
+<p><code>Python</code> <code>FastF1</code> <code>Statistical learning</code></p>
+<p><a href="https://github.com/OptimistOtaku/trackshift-26">Explore the project ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>🛡️ aegis-env</h3>
+<p><strong>A training ground for AI incident response.</strong></p>
+<p>A reinforcement-learning environment where agents triage anomalies, contain cascading failures, patch components, and validate recovery—with adversarial logs and operational side effects.</p>
+<p><code>Python</code> <code>FastAPI</code> <code>Reinforcement learning</code></p>
+<p><a href="https://github.com/OptimistOtaku/aegis-env">Explore the project ↗</a></p>
+</td>
+</tr>
+</table>
+
+## 🧠 Research · the questions behind the code
+
+### Ego Gate — what is worth remembering?
+
+My research preview explores **uncertainty- and influence-based replay selection** for continual learning: deciding which experiences to retain under a fixed memory budget.
+
+Part of **The Stimulus**, my longer-term exploration of selective learning. The repository includes a preprint, a small class-incremental experiment, per-seed results, and replay-baseline comparisons. Current evidence is a small-scale proof of concept.
+
+[![Read the preprint](https://img.shields.io/badge/READ%20THE%20PREPRINT-EGO%20GATE-C4B5FD?style=for-the-badge&labelColor=141B2D)](https://github.com/OptimistOtaku/ego-gate/blob/main/ego_gate_paper.pdf)
+[![Explore experiments](https://img.shields.io/badge/EXPLORE-EXPERIMENTS-8BE5D5?style=for-the-badge&logo=github&logoColor=white&labelColor=141B2D)](https://github.com/OptimistOtaku/ego-gate/tree/main/experiments)
+
+**Questions I keep returning to:** How do we reduce forgetting? How should an agent represent doubt? How can people inspect and correct an AI system's memory?
+
+## ✨ Milestones with evidence
+
+| Work | Result |
 | --- | --- |
-| [Caption synchronization](https://github.com/CapSoftware/Cap/pull/2956) | **5.61× faster** for a one-hour source trimmed to 60 four-second clips |
-| [Keyboard-overlay regeneration](https://github.com/CapSoftware/Cap/pull/2751) | **15.79 ms → 8.35 ms** for the one-hour / 60-clip API benchmark |
-| [Style resolution](https://github.com/CapSoftware/Cap/pull/2957) | **2.82× faster** inactive lookups with 200 style segments |
+| 🧩 **Recall Loop / bunch** | Published a [Render demo](https://recall-loop-demo.onrender.com), with recorded checks for hybrid search, graph editing, and visitor isolation. |
+| 🛰️ **GREG** | [Three live-model demonstrations](https://github.com/OptimistOtaku/greg/blob/main/artifacts/gemini-evaluation.json) completed **7/7 objectives each**, including corridor blockage and robot failure in authored simulation scenarios. |
+| 🏎️ **PITWALL** | Reported **12% lower lap-pace RMSE** than persistence across 6,831 scored laps on a [reused evaluation set](https://github.com/OptimistOtaku/trackshift-26#-validated-benchmark-results). |
+| ⚡ **Cap** | A merged Rust optimization delivered **5.61× faster caption synchronization** in the [one-hour / 60-trimmed-clip local benchmark](https://github.com/CapSoftware/Cap/pull/2956). |
 
-These are scoped local benchmarks with methodology and regression checks in the linked PRs; they measure the affected operations, not overall editor FPS.
+## 🛠️ My toolkit
 
-## Selected projects
+<p>
+	<img src="https://skillicons.dev/icons?i=python,rust,ts,js,react,nextjs,fastapi,threejs,postgres,sqlite,docker,git&perline=6" alt="Python, Rust, TypeScript, JavaScript, React, Next.js, FastAPI, Three.js, PostgreSQL, SQLite, Docker, and Git" />
+</p>
 
-### [GREG](https://github.com/OptimistOtaku/greg) · Agents with shared graph memory
+**AI & data:** agent tooling / MCP · Qdrant · FalkorDB · DuckDB · continual-learning experiments  
+**Engineering:** API design · data workflows · performance profiling · interactive visualization
 
-A prototype robot crew coordinating through **FalkorDB**, with evidence, task dependencies, capabilities, and action receipts stored in a shared graph. Includes a **Gemini → MCP → validated actions** loop and a React/Three.js mission-control interface.
+---
 
-Three recorded live-model demonstrations completed all seven objectives, including blocked-corridor and robot-outage scenarios, in a synthetic orbital station.
+**🌱 Giving back:** I contribute workflow blueprints to [Kestra](https://github.com/kestra-io/blueprints/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku) and Rust performance improvements to [Cap](https://github.com/CapSoftware/Cap/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku).
 
-[Watch the demo](https://github.com/OptimistOtaku/greg/releases/tag/v0.1.0-demo) · [Architecture](https://github.com/OptimistOtaku/greg/blob/main/docs/product.md) · [Evaluation evidence](https://github.com/OptimistOtaku/greg/blob/main/artifacts/gemini-evaluation.json)
-
-### [SIETCH](https://github.com/OptimistOtaku/Sietch) · Memory when the connection disappears
-
-An edge-memory prototype for simulated rovers and drones using **Qdrant Edge, local vision-language models, and semantic + spatial retrieval**. Robots retain observations and conclusions locally, then prioritize what to transmit under tight communication budgets.
-
-Includes evidence-linked recall, signed commands, fleet deduplication, and a SQLite write-ahead log for recovering unflushed memory.
-
-### [PITWALL](https://github.com/OptimistOtaku/trackshift-26) · Motorsport decisions under uncertainty
-
-A Formula 1 telemetry and strategy project built with **FastF1 and statistical learning**, presented through an offline interactive console. Models lap pace, fresh-tyre value, and the traffic conditions that can make an undercut fail.
-
-My role: **AI & Telemetry Engineer**—physics identification, telemetry pipelines, and model benchmarking. The repository reports **12% lower lap-pace RMSE than persistence** on its reused evaluation set, with uncertainty intervals and evaluation limits documented.
-
-### [Ego Gate](https://github.com/OptimistOtaku/ego-gate) · What is worth remembering?
-
-My continual-learning research preview explores replay selection using **uncertainty and influence signals**. Includes a preprint, a small class-incremental experiment, per-seed results, and comparisons against replay baselines.
-
-Part of **The Stimulus**, my longer-term exploration of selective learning and memory. Current evidence is a small-scale proof of concept.
-
-[Read the preprint](https://github.com/OptimistOtaku/ego-gate/blob/main/ego_gate_paper.pdf) · [Inspect the experiments](https://github.com/OptimistOtaku/ego-gate/tree/main/experiments)
-
-### [aegis-env](https://github.com/OptimistOtaku/aegis-env) · Training agents to respond to AI safety incidents
-
-A Python reinforcement-learning environment for simulated incident response: triage anomalies, contain cascading failures, patch affected components, and validate recovery. Includes adversarial log noise, operational side effects, a FastAPI interface, and a deterministic baseline.
-
-## Tools I work with
-
-**Languages:** Python · Rust · TypeScript · JavaScript · SQL  
-**AI & data:** continual-learning experiments · agent tooling / MCP · FalkorDB · Qdrant · PostgreSQL · DuckDB · SQLite  
-**Applications & infrastructure:** React · Next.js · FastAPI · Three.js · Docker · Kestra
-
-## What I'm exploring
-
-How should an agent decide what to remember, when to revise a belief, and when to ask for help?
-
-That question connects my interests in **continual learning, uncertainty calibration, agent safety, and human–AI interaction**—and the systems I build to test them.
-
-[Explore my repositories →](https://github.com/OptimistOtaku?tab=repositories)
+<p align="center"><strong>Curious about memory, learning, and the systems we can build around them.</strong><br /><a href="https://github.com/OptimistOtaku?tab=repositories">Explore my work ↗</a></p>
