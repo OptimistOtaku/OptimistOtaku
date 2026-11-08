@@ -135,6 +135,6 @@ Technologies I've used across my projects, research, and contributions.
 
 ---
 
-**🌱 Giving back:** I contribute workflow blueprints to [Kestra](https://github.com/kestra-io/blueprints/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku) and Rust performance improvements to [Cap](https://github.com/CapSoftware/Cap/pulls?q=is%3Apr+is%3Amerged+author%3AOptimistOtaku).
+**🌱 Giving back:** I contribute to open source, collaborating with communities to make useful tools better.
 
 <p align="center"><strong>Curious about memory, learning, and the systems we can build around them.</strong><br /><a href="https://github.com/OptimistOtaku?tab=repositories">Explore my work ↗</a></p>
