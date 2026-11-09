@@ -111,26 +111,20 @@ Part of **The Stimulus**, my longer-term exploration of selective learning. The 
 | **12% lower error · 6,831 scored laps** | **PITWALL:** lap-pace RMSE **0.844 → 0.743 seconds** versus persistence; **92.5% empirical coverage** for nominal 90% intervals. Chronological training with a reused evaluation set. [Results & methodology ↗](https://github.com/OptimistOtaku/trackshift-26#-validated-benchmark-results) |
 | **0.7–2.5 ms offline vector search** | **SIETCH:** local Qdrant Edge search latency, excluding query embedding time, in the project's recorded laptop measurements. [Measurements & limits ↗](https://github.com/OptimistOtaku/Sietch/blob/main/findings_results.md) |
 
-## 🛠️ My toolkit
-
-Technologies I've used across my projects, research, and contributions.
+## 🛠️ Skills & toolkit
 
 <p align="center">
-	<img src="https://skillicons.dev/icons?i=python,cpp,rust,ts,js,solidity,html,css,react,nextjs,nodejs,express,fastapi,tailwind,threejs,pytorch,postgres,sqlite,firebase,docker,git,vite,vitest,cmake&perline=8" alt="Python, C++, Rust, TypeScript, JavaScript, Solidity, HTML, CSS, React, Next.js, Node.js, Express, FastAPI, Tailwind CSS, Three.js, PyTorch, PostgreSQL, SQLite, Firebase, Docker, Git, Vite, Vitest, and CMake" />
+	<img src="https://skillicons.dev/icons?i=python,cpp,rust,ts,js,solidity,react,nextjs,nodejs,fastapi,threejs,pytorch,docker&perline=7" alt="Python, C++, Rust, TypeScript, JavaScript, Solidity, React, Next.js, Node.js, FastAPI, Three.js, PyTorch, and Docker" />
 </p>
 
-| Area | Technologies & techniques |
+| Area | Skills & technologies |
 | --- | --- |
-| **Languages** | Python · C++ · Rust · TypeScript · JavaScript · Solidity · SQL · HTML · CSS |
-| **Frontend & interaction** | React · Next.js · Vite · Tailwind CSS · shadcn/ui / Radix UI · GSAP · Framer Motion · React Hook Form · Zod |
-| **3D & visualization** | Three.js · React Three Fiber · Drei · Recharts · Chart.js · Matplotlib · SFML |
-| **Backend & APIs** | FastAPI · Node.js · Express · REST APIs · Socket.IO · SQLAlchemy · Prisma · JWT authentication |
-| **Machine learning & research** | PyTorch · torchvision · Hugging Face Diffusers · timm / EfficientNet · scikit-learn · NumPy · pandas · SciPy · statsmodels · FastF1 |
-| **Agents & retrieval** | MCP · Gemini / OpenAI APIs · Ollama · local vision-language models · SigLIP2 · FastEmbed · dense + BM25 retrieval · reciprocal rank fusion · graph memory |
-| **Databases & data engineering** | PostgreSQL · SQLite / FTS5 · Qdrant / Qdrant Edge · FalkorDB / Cypher · DuckDB · Firebase · Parquet / PyArrow · Kestra workflows |
-| **Infrastructure & tooling** | Docker · Docker Compose · Render · Git / GitHub · uv · npm · Cargo · CMake · PowerShell |
-| **Testing & reliability** | pytest · Vitest · React Testing Library · Node test runner · Rust regression tests · performance profiling · reproducible benchmarks · failure recovery |
-| **Web3** | Solidity smart contracts · Ethereum · ethers.js · ERC-20 / ERC-721 / ERC-1155 · NFT storage integration |
+| **Languages** | Python · C++ · Rust · TypeScript · JavaScript · SQL · Solidity |
+| **AI & research** | Machine learning · deep learning · continual learning · computer vision · reinforcement learning · PyTorch · scikit-learn |
+| **Agents & data** | AI agents · MCP · semantic and hybrid search · graph and vector databases · data engineering |
+| **Software engineering** | Full-stack development · React · Next.js · Node.js · FastAPI · API design · interactive 3D with Three.js |
+| **Systems & infrastructure** | Docker · Linux and Windows development · testing · performance profiling · reproducible evaluation |
+| **Blockchain** | Ethereum · smart contract development |
 
 
 ---
